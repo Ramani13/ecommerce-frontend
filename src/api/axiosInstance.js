@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://ecommerce-backend-xfhn.vercel.app/api", // ✅ deployed backend URL
+  baseURL: "https://ecommerce-backend-qx43.onrender.com", // ✅ deployed backend URL
   withCredentials: true,
 });
 export default axiosInstance;
