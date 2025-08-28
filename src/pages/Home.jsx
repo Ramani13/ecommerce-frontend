@@ -63,9 +63,9 @@ const Home = () => {
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">Our Products</h1>
 
-      {filteredProducts.length === 0 ? (
+      {/* {filteredProducts.length === 0 ? (
         <p className="text-center text-gray-500">No products found</p>
-      ) : (
+      ) : ( */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
             <ProductCard
@@ -74,7 +74,7 @@ const Home = () => {
             />
           ))}
         </div>
-      )}
+      {/* )} */}
     </div>
   );
 };
